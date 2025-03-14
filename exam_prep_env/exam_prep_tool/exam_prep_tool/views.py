@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from .navbar import get_navbar
+from frontend.navbar import get_navbar
 
 def hello_python(request):
     return HttpResponse("Hello Python")
